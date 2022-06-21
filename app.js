@@ -26,9 +26,5 @@ for (fizzBuzz = 0; fizzBuzz < 100; fizzBuzz++) {
     console.log("FIZZ");
   } else if (fizzBuzz % 5 == 0) {
     console.log("BUZZ");
-  } else {
-    console.log(fizzBuzz)}/*  else if (fizzBuzz % 3 == 0 && fizzBuzz % 5 == 0) {
-    console.log("FIZZBUZZ");
-  } else {
-    console.log(fizzBuzz); */
   }
+}
