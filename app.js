@@ -17,3 +17,16 @@ for(isOdd == 0; isOdd < 100; isOdd++) {
 console.log("EXERCISE 2:\n==========\n");
 
 let fizzBuzz = 0;
+
+for (fizzBuzz = 0; fizzBuzz < 100; fizzBuzz++) {
+//checking divisibility of number
+    if (fizzBuzz % 3 == 0 && fizzBuzz % 5 == 0) {
+    console.log("FIZZBUZZ");
+    } else if (fizzBuzz % 3 == 0) {
+        console.log("FIZZ");
+    } else if (fizzBuzz % 5 == 0) {
+        console.log("BUZZ");
+    } else {
+        console.log(fizzBuzz);
+    }
+}
